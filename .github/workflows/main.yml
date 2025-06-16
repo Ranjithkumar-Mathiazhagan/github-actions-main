@@ -5,9 +5,9 @@ on: push
 jobs:
   test:
    runs-on:ubuntu-latest
-   steps:
-   -name: print helloworld
-    run : echo"hello-world"  
+    steps:
+    - name: print helloworld
+      run : echo"hello-world"  
  
 
 
